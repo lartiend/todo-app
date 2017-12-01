@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Marck+Script');
+
+h1 {
+	font-family: 'Marck Script', cursive;
+}
+body {
+	font-family: 'Jura', sans-serif;
+	width: 70vw;
+	margin: auto;
+	padding: 10px;
+}
+#tasks {
+	max-width: 700px;
+	width: 100%;
+}
+.strike { 
+	text-decoration: line-through;
+	text-decoration-color: white;
+	color: grey;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+     background-color: #dfdfdf;
+}
+small#time {
+	font-size: 1em;
+}
+button {
+	cursor: pointer;
+}
+button[name='lock']:hover {
+	color: white;
+}
+.jumbotron {
+	padding-top: 2rem;
+	padding-bottom: 0;
+}
+
+
+
